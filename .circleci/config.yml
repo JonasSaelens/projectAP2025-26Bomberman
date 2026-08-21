@@ -55,6 +55,8 @@ jobs:
               git remote set-url origin git@github.com:$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME.git
               git checkout main || git checkout -b main
               
+              # Ensure docs folder contains the built html contents cleanly
+              # (Assuming doxygen outputs to docs/html)
               git add -f docs/html/*
               
               if git diff --staged --quiet; then
