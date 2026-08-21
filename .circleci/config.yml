@@ -7,7 +7,18 @@ jobs:
     steps:
     - checkout
     - run: sudo apt update
-    - run: DEBIAN_FRONTEND=noninteractive TZ=Europe/Brussels sudo apt install -y build-essential cmake git doxygen libsfml-dev libudev-dev libopenal-dev
+    - run: >
+        DEBIAN_FRONTEND=noninteractive TZ=Europe/Brussels sudo apt install -y 
+        build-essential 
+        cmake 
+        git 
+        doxygen 
+        libsfml-dev 
+        libudev-dev 
+        libopenal-dev 
+        libvorbis-dev 
+        libogg-dev 
+        libflac-dev
     - run: mkdir -p build
     - run: cd build && cmake ..
     - run: cd build && make
