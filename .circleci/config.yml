@@ -45,6 +45,12 @@ jobs:
       - store_artifacts:
           path: docs
       - run:
+          name: Prepare Docs for GitHub Pages
+          command: |
+            if [ -d "docs" ]; then
+              touch docs/.nojekyll
+            fi
+      - run:
           name: Configure Git Identity
           command: |
             git config --global user.name "CircleCI Build Bot"
@@ -56,7 +62,7 @@ jobs:
               git remote set-url origin git@github.com:$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME.git
               git checkout main || git checkout -b main
               
-              # Add the entire docs directory so the html folder and files stay structured
+              # Add the entire docs directory including html/ and .nojekyll
               git add -f docs/
               
               if git diff --staged --quiet; then
