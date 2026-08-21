@@ -5,7 +5,8 @@ jobs:
     machine:
       image: ubuntu-2404:current
     steps:
-      - checkout
+      - checkout:
+          fingerprint: "SHA256:j3l9IVIVZHft7lLffJ++XjeM/PLFlze/36aHrdILNJM"
       - run: sudo apt update
       - run: >
           DEBIAN_FRONTEND=noninteractive TZ=Europe/Brussels sudo apt install -y 
@@ -40,7 +41,6 @@ jobs:
           path: build/installed
       - store_artifacts:
           path: docs
-
       - run:
           name: Configure Git Identity
           command: |
@@ -50,7 +50,6 @@ jobs:
           name: Commit and Push Doxygen Docs to main
           command: |
             if [ -d "docs/html" ]; then
-              # Switch remote URL from HTTPS to SSH to use the write-enabled key
               git remote set-url origin git@github.com:$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME.git
               git checkout main || git checkout -b main
               
