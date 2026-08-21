@@ -5,38 +5,56 @@ jobs:
     machine:
       image: ubuntu-2404:current
     steps:
-    - checkout
-    - run: sudo apt update
-    - run: >
-        DEBIAN_FRONTEND=noninteractive TZ=Europe/Brussels sudo apt install -y 
-        build-essential 
-        cmake 
-        git 
-        doxygen 
-        libsfml-dev 
-        libudev-dev 
-        libopenal-dev 
-        libvorbis-dev 
-        libogg-dev 
-        libflac-dev 
-        libxrandr-dev 
-        libxcursor-dev 
-        libxi-dev 
-        libxinerama-dev 
-        libfreetype-dev
-    - run: mkdir -p build
-    - run: cd build && cmake ..
-    - run: cd build && make
-    - run: cd build && sudo make install
-    - run: |
-        if [ -f Doxyfile ]; then
-          doxygen Doxyfile
-        elif [ -f build/Doxyfile ]; then
-          cd build && doxygen Doxyfile
-        else
-          echo "No Doxyfile found, skipping documentation generation."
-        fi
-    - store_artifacts:
-        path: build/installed
-    - store_artifacts:
-        path: build/doc
+      - checkout
+      - run: sudo apt update
+      - run: >
+          DEBIAN_FRONTEND=noninteractive TZ=Europe/Brussels sudo apt install -y 
+          build-essential 
+          cmake 
+          git 
+          doxygen 
+          libsfml-dev 
+          libudev-dev 
+          libopenal-dev 
+          libvorbis-dev 
+          libogg-dev 
+          libflac-dev 
+          libxrandr-dev 
+          libxcursor-dev 
+          libxi-dev 
+          libxinerama-dev 
+          libfreetype-dev
+      - run: mkdir -p build
+      - run: cd build && cmake ..
+      - run: cd build && make
+      - run: cd build && sudo make install
+      - run: |
+          if [ -f Doxyfile ]; then
+            doxygen Doxyfile
+          elif [ -f build/Doxyfile ]; then
+            cd build && doxygen Doxyfile
+          else
+            echo "No Doxyfile found, skipping documentation generation."
+          fi
+      - store_artifacts:
+          path: build/installed
+      - store_artifacts:
+          path: docs
+
+      - run:
+          name: Configure Git Identity
+          command: |
+            git config --global user.name "CircleCI Build Bot"
+            git config --global user.email "build-bot@circleci.local"
+      - run:
+          name: Deploy Documentation to GitHub Pages
+          command: |
+            # Doxyfile sets OUTPUT_DIRECTORY = docs, so HTML output is in docs/html
+            DOC_DIR="docs/html"
+
+            if [ -d "$DOC_DIR" ]; then
+              echo "Deploying documentation from $DOC_DIR to gh-pages..."
+              git subtree push --prefix "$DOC_DIR" origin gh-pages
+            else
+              echo "HTML documentation directory ($DOC_DIR) not found. Skipping deployment."
+            fi
