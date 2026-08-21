@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['projectap2025_2026bomberman_0',['projectAP2025-26Bomberman',['../index.html',1,'']]]
+  ['ap2025_2026_20project_0',['Bomberman: AP2025-26 Project',['../index.html',1,'']]]
 ];

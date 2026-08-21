@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Bomberman: projectAP2025-26Bomberman</title>
+<title>Bomberman: Bomberman: AP2025-26 Project</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -90,10 +90,32 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">projectAP2025-26Bomberman </div></div>
+  <div class="headertitle"><div class="title">Bomberman: AP2025-26 Project </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="md_README"></a>my bomberman project for advanced programming retake </p>
+<div class="textblock"><p><a class="anchor" id="md_README"></a> <b>Author:</b> Jonas Saelens <b>Student number:</b> <em>s0240883</em> <b>Repository:</b> <a href="https://github.com/JonasSaelens/projectAP2025-26Bomberman">https://github.com/JonasSaelens/projectAP2025-26Bomberman</a></p>
+<h1><a class="anchor" id="autotoc_md1"></a>
+Building</h1>
+<div class="fragment"><div class="line">cmake -B build -S .</div>
+<div class="line">cmake --build build</div>
+</div><!-- fragment --><p>SFML 2.6.1 is fetched automatically via <code>FetchContent</code>. Run the <code>bomberman</code> executable produced under <code>build/representation/</code>.</p>
+<p><b>Controls:</b> Arrow keys to move, Space to place a bomb.</p>
+<h1><a class="anchor" id="autotoc_md2"></a>
+Design choices</h1>
+<ul>
+<li><b>Logic / representation split</b>: <code>logic</code> has no SFML dependency and only knows about game rules; <code>representation</code> handles windowing, sprites, sound, and animation.</li>
+<li><b>Observer</b>: every entity (<code>EntityModel</code>) is a <code>Subject</code>. <code>EntityView</code>s and <code>Score</code> are <code>Observer</code>s that react to entity events (moved, died, bomb exploded, power-up collected, ...) to update sprites/animations/sound and score, with zero coupling back to <code>logic</code>.</li>
+<li><b>Abstract Factory</b>: <code>World</code> creates entities through an <code>AbstractFactory</code> interface; <code>ConcreteFactory</code> (in <code>representation</code>) builds the entity and its matching view together.</li>
+<li><b>State</b>: <code>Game</code> delegates to <code>MenuState</code> / <code>PlayingState</code> / <code>GameOverState</code> via a <code>StateManager</code>.</li>
+<li><b>Entity hierarchy</b>: <code>Character</code> (player + <code>Bot</code>), <code>Bomb</code>, <code>Wall</code>, <code>Flame</code>, and <code>PowerUp</code> (with <code>Fire</code>/<code>ExtraBomb</code>/<code>Skates</code> subclasses) all derive from <code>EntityModel</code>.</li>
+<li><b>Singletons</b>: <code>Random</code> and <code>Stopwatch</code> for RNG and delta-time.</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md3"></a>
+Class diagram</h1>
+<p><img src="https://github.com/user-attachments/assets/1341fffe-555f-4365-b5ae-685a89a17117" alt="image" width="1089" height="711" class="inline"/></p>
+<h1><a class="anchor" id="autotoc_md4"></a>
+Bonus features</h1>
+<p><b>sounds and music</b> were implemented as a bonus extension: background music per state (menu/playing/game over) and sound effects for bomb ticks, explosions, power-up pickups, and game over all triggered through the same Observer events used for animation. </p>
 </div></div><!-- PageDoc -->
 </div><!-- contents -->
 </div><!-- doc-content -->

@@ -24,5 +24,5 @@ var searchData=
   ['powerupview_21',['powerupview',['../classrepresentation_1_1PowerUpView.html',1,'representation::PowerUpView'],['../classrepresentation_1_1PowerUpView.html#a6c333582aad062c32f0f4faf35b4f94c',1,'representation::PowerUpView::PowerUpView()']]],
   ['powerupview_2ehpp_22',['PowerUpView.hpp',['../PowerUpView_8hpp.html',1,'']]],
   ['processinput_23',['processInput',['../classrepresentation_1_1Game.html#add8f61f2adf24448695c9a8c04e73576',1,'representation::Game']]],
-  ['projectap2025_2026bomberman_24',['projectAP2025-26Bomberman',['../index.html',1,'']]]
+  ['project_24',['Bomberman: AP2025-26 Project',['../index.html',1,'']]]
 ];
