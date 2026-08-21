@@ -1,19 +1,14 @@
 var searchData=
 [
-  ['kalivetickbonus_0',['kAliveTickBonus',['../classlogic_1_1Score.html#ae18ee1239fec34f9aba3240111c83ecd',1,'logic::Score']]],
-  ['karenacols_1',['kArenaCols',['../classlogic_1_1World.html#a86016135d687414817dd0d86bfa9fb7d',1,'logic::World']]],
-  ['karenarows_2',['kArenaRows',['../classlogic_1_1World.html#acc7fc998a4fefbf8ff605f21c0952c8e',1,'logic::World']]],
-  ['kbasebombcapacity_3',['kBaseBombCapacity',['../classlogic_1_1Character.html#a5aef88c55b84face16d773c9c5408846',1,'logic::Character']]],
-  ['kbasebombradius_4',['kBaseBombRadius',['../classlogic_1_1Character.html#a24e6d2ee257de1b4dc1489659b52a2ee',1,'logic::Character']]],
-  ['kbasespeed_5',['kBaseSpeed',['../classlogic_1_1Character.html#a507db65b149bda480894c5f41a88136d',1,'logic::Character']]],
-  ['kblockbrokenbonus_6',['kBlockBrokenBonus',['../classlogic_1_1Score.html#aa6e673f0aaa9550647f20b9a997f0ee6',1,'logic::Score']]],
-  ['kenemykilledbonus_7',['kEnemyKilledBonus',['../classlogic_1_1Score.html#a4173a84fdd2fd7fe0c2f0961e0097a13',1,'logic::Score']]],
-  ['kfuseseconds_8',['kFuseSeconds',['../classlogic_1_1Bomb.html#a697f8b73267b82f470325608cc853f78',1,'logic::Bomb']]],
-  ['kill_9',['kill',['../classlogic_1_1Character.html#abf15662b5393ea34769abd4688c168d1',1,'logic::Character::kill()'],['../classlogic_1_1EntityModel.html#afcaace1540d5e0326bc7bbdd3b618e98',1,'logic::EntityModel::kill()']]],
-  ['killedbyplayer_10',['killedbyplayer',['../classlogic_1_1Character.html#a077167e70df8123813b52fbba2a979bf',1,'logic::Character::killedByPlayer'],['../structlogic_1_1Event.html#a8f8bbcfcf4d9cd327a2bd7e0a270f597',1,'logic::Event::killedByPlayer']]],
-  ['klosspenalty_11',['kLossPenalty',['../classlogic_1_1Score.html#add06fe74fb82bd93d9259ef4dfbcdf0c',1,'logic::Score']]],
-  ['kmaxhighscores_12',['kMaxHighScores',['../classlogic_1_1Score.html#aa34883c1404c9a8df6c6965243d32bc3',1,'logic::Score']]],
-  ['kpowerupbonus_13',['kPowerUpBonus',['../classlogic_1_1Score.html#aeacde13e05f6391f8f7a70b3de0f109b',1,'logic::Score']]],
-  ['kpowerupdropchance_14',['kPowerUpDropChance',['../classlogic_1_1World.html#aeace1ef8622933b109e409e675c39f17',1,'logic::World']]],
-  ['kwinbonus_15',['kWinBonus',['../classlogic_1_1Score.html#ae22ccde0a4c07cbf133a072eefa28eb5',1,'logic::Score']]]
+  ['idle_0',['Idle',['../namespacerepresentation.html#a92037ba4068f5bedcc505627cb880093ae599161956d626eda4cb0a5ffb85271c',1,'representation']]],
+  ['initializearena_1',['initializeArena',['../classlogic_1_1World.html#a6bb5c82f122c6509c1c28d05eee2594e',1,'logic::World']]],
+  ['instructiontext_5f_2',['instructionText_',['../classrepresentation_1_1GameOverState.html#adaaed48f18a44a79ca5cee7c04447e7f',1,'representation::GameOverState']]],
+  ['intersects_3',['intersects',['../classlogic_1_1EntityModel.html#a41114fe16542a045a3714664f0dc404d',1,'logic::EntityModel::intersects(const EntityModel &amp;other) const'],['../classlogic_1_1EntityModel.html#a02ceb1ef092fd4f30e4994ee5378d88d',1,'logic::EntityModel::intersects(Vector2 otherPos, Vector2 otherSize) const']]],
+  ['isalive_4',['isAlive',['../classlogic_1_1EntityModel.html#ab9fec31999a80add492b4ace08366e1a',1,'logic::EntityModel']]],
+  ['isanimating_5f_5',['isAnimating_',['../classrepresentation_1_1WallView.html#a2a041ba942de33a1fe34abc1e605f793',1,'representation::WallView']]],
+  ['isdestructible_6',['isDestructible',['../classlogic_1_1Wall.html#a935ea7ee97058602c482750304af6f66',1,'logic::Wall']]],
+  ['isgameover_7',['isGameOver',['../classlogic_1_1World.html#ae50253dfcf0258eaa787083abdee95c3',1,'logic::World']]],
+  ['iskilledbyplayer_8',['isKilledByPlayer',['../classlogic_1_1Character.html#a5cf8027199e7941ed6b128285fbc670c',1,'logic::Character']]],
+  ['isplayer_9',['isplayer',['../structlogic_1_1Event.html#a033a8e9e8f6b82a0a4e667cec5dab45d',1,'logic::Event::isPlayer'],['../classlogic_1_1Character.html#a9ecaf9a9116b57c33d9dd4abb5fd8930',1,'logic::Character::isPlayer() const']]],
+  ['isplayer_5f_10',['isPlayer_',['../classlogic_1_1Character.html#a5320821e958ebf5016722a9f5f36197c',1,'logic::Character']]]
 ];

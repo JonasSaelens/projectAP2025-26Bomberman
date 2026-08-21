@@ -25,6 +25,7 @@
 var NAVTREE =
 [
   [ "Bomberman", "index.html", [
+    [ "projectAP2025-26Bomberman", "index.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
