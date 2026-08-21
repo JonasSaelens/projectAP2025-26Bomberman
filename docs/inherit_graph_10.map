@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classrepresentation_1_1State.html" title="Constructs a new State instance. @reference game Reference to the core Game application engine." alt="" coords="5,70,164,95"/>
+<area shape="rect" id="Node000001" href="$classrepresentation_1_1GameOverState.html" title="Represents the game over screen state (handling victory or defeat outcomes)." alt="" coords="218,5,413,45"/>
+<area shape="poly" id="edge19_Node000000_Node000001" title=" " alt="" coords="149,64,234,43,235,48,151,69"/>
+<area shape="rect" id="Node000002" href="$classrepresentation_1_1MenuState.html" title="Represents the main menu screen state of the application." alt="" coords="218,70,413,95"/>
+<area shape="poly" id="edge20_Node000000_Node000002" title=" " alt="" coords="178,80,218,80,218,85,178,85"/>
+<area shape="rect" id="Node000003" href="$classrepresentation_1_1PlayingState.html" title="Represents the active gameplay screen state." alt="" coords="212,119,419,145"/>
+<area shape="poly" id="edge21_Node000000_Node000003" title=" " alt="" coords="158,96,256,117,255,122,157,101"/>
+</map>

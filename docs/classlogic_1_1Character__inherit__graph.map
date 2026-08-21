@@ -1,0 +1,9 @@
+<map id="logic::Character" name="logic::Character">
+<area shape="rect" id="Node000001" title="Represents a moving character entity in the game (player or bot)." alt="" coords="5,572,169,1017"/>
+<area shape="rect" id="Node000004" href="$classlogic_1_1Bot.html" title="Represents an AI&#45;controlled bot character in the game." alt="" coords="26,1065,149,1171"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="90,1031,90,1065,85,1065,85,1031"/>
+<area shape="rect" id="Node000002" href="$classlogic_1_1EntityModel.html" title="Abstract base class for all game entities in the world." alt="" coords="17,199,158,524"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="90,538,90,572,85,572,85,538"/>
+<area shape="rect" id="Node000003" href="$classlogic_1_1Subject.html" title="Base class implementing the Subject side of the Observer pattern." alt="" coords="27,5,148,151"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="90,164,90,198,85,198,85,164"/>
+</map>

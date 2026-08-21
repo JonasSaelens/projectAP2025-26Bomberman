@@ -1,0 +1,5 @@
+<map id="representation::ConcreteFactory" name="representation::ConcreteFactory">
+<area shape="rect" id="Node000001" title="Concrete factory implementation of the AbstractFactory pattern for rendering and logic entities." alt="" coords="5,239,180,599"/>
+<area shape="rect" id="Node000002" href="$classlogic_1_1AbstractFactory.html" title="Abstract factory interface for creating game entities." alt="" coords="15,5,170,191"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,205,95,238,90,238,90,205"/>
+</map>

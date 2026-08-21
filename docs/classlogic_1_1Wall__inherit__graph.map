@@ -1,0 +1,7 @@
+<map id="logic::Wall" name="logic::Wall">
+<area shape="rect" id="Node000001" title="Represents a wall or obstacle entity in the game world." alt="" coords="11,572,141,697"/>
+<area shape="rect" id="Node000002" href="$classlogic_1_1EntityModel.html" title="Abstract base class for all game entities in the world." alt="" coords="5,199,147,524"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="79,538,79,572,73,572,73,538"/>
+<area shape="rect" id="Node000003" href="$classlogic_1_1Subject.html" title="Base class implementing the Subject side of the Observer pattern." alt="" coords="15,5,137,151"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="79,164,79,198,73,198,73,164"/>
+</map>

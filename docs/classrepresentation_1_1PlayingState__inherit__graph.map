@@ -1,0 +1,5 @@
+<map id="representation::PlayingState" name="representation::PlayingState">
+<area shape="rect" id="Node000001" title="Represents the active gameplay screen state." alt="" coords="5,199,204,464"/>
+<area shape="rect" id="Node000002" href="$classrepresentation_1_1State.html" title="Constructs a new State instance. @reference game Reference to the core Game application engine." alt="" coords="29,5,180,151"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,164,107,198,102,198,102,164"/>
+</map>

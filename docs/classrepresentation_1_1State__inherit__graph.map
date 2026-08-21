@@ -1,0 +1,9 @@
+<map id="representation::State" name="representation::State">
+<area shape="rect" id="Node000001" title="Constructs a new State instance. @reference game Reference to the core Game application engine." alt="" coords="234,5,385,151"/>
+<area shape="rect" id="Node000002" href="$classrepresentation_1_1GameOverState.html" title="Represents the game over screen state (handling victory or defeat outcomes)." alt="" coords="5,199,192,479"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="237,163,206,200,194,215,190,212,202,197,233,160"/>
+<area shape="rect" id="Node000003" href="$classrepresentation_1_1MenuState.html" title="Represents the main menu screen state of the application." alt="" coords="216,236,403,441"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="312,165,312,236,307,236,307,165"/>
+<area shape="rect" id="Node000004" href="$classrepresentation_1_1PlayingState.html" title="Represents the active gameplay screen state." alt="" coords="427,206,626,471"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="384,159,417,197,429,212,425,215,413,200,380,163"/>
+</map>

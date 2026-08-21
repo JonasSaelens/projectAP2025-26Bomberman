@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classlogic_1_1AbstractFactory.html" title="Abstract factory interface for creating game entities." alt="" coords="5,13,168,38"/>
+<area shape="rect" id="Node000001" href="$classrepresentation_1_1ConcreteFactory.html" title="Concrete factory implementation of the AbstractFactory pattern for rendering and logic entities." alt="" coords="216,5,399,45"/>
+<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="182,23,216,23,216,28,182,28"/>
+</map>

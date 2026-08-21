@@ -1,0 +1,23 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classlogic_1_1Subject.html" title="Base class implementing the Subject side of the Observer pattern." alt="" coords="5,104,115,129"/>
+<area shape="rect" id="Node000001" href="$classlogic_1_1EntityModel.html" title="Abstract base class for all game entities in the world." alt="" coords="163,104,301,129"/>
+<area shape="poly" id="edge9_Node000000_Node000001" title=" " alt="" coords="128,114,163,114,163,119,128,119"/>
+<area shape="rect" id="Node000002" href="$classlogic_1_1Bomb.html" title="Represents a bomb entity placed in the game world." alt="" coords="362,5,461,31"/>
+<area shape="poly" id="edge10_Node000001_Node000002" title=" " alt="" coords="260,94,301,67,348,40,373,28,375,33,351,44,304,71,263,98"/>
+<area shape="rect" id="Node000003" href="$classlogic_1_1Character.html" title="Represents a moving character entity in the game (player or bot)." alt="" coords="349,55,473,80"/>
+<area shape="poly" id="edge11_Node000001_Node000003" title=" " alt="" coords="291,98,363,78,365,83,293,103"/>
+<area shape="rect" id="Node000005" href="$classlogic_1_1Flame.html" title="Represents an active explosion flame entity in the game world." alt="" coords="360,104,463,129"/>
+<area shape="poly" id="edge13_Node000001_Node000005" title=" " alt="" coords="315,114,360,114,360,119,315,119"/>
+<area shape="rect" id="Node000006" href="$classlogic_1_1PowerUp.html" title="Abstract base class representing a collectible power&#45;up item in the world." alt="" coords="352,153,471,179"/>
+<area shape="poly" id="edge14_Node000001_Node000006" title=" " alt="" coords="293,131,365,151,363,156,291,136"/>
+<area shape="rect" id="Node000010" href="$classlogic_1_1Wall.html" title="Represents a wall or obstacle entity in the game world." alt="" coords="367,203,456,228"/>
+<area shape="poly" id="edge18_Node000001_Node000010" title=" " alt="" coords="264,135,351,188,378,200,376,205,348,192,261,139"/>
+<area shape="rect" id="Node000004" href="$classlogic_1_1Bot.html" title="Represents an AI&#45;controlled bot character in the game." alt="" coords="561,55,644,80"/>
+<area shape="poly" id="edge12_Node000003_Node000004" title=" " alt="" coords="487,65,561,65,561,70,487,70"/>
+<area shape="rect" id="Node000007" href="$classlogic_1_1BombPowerUp.html" title="A power&#45;up that increases a character&#39;s maximum bomb capacity." alt="" coords="524,104,681,129"/>
+<area shape="poly" id="edge15_Node000006_Node000007" title=" " alt="" coords="474,147,552,127,553,132,475,152"/>
+<area shape="rect" id="Node000008" href="$classlogic_1_1FirePowerUp.html" title="A power&#45;up that increases a character&#39;s bomb explosion radius." alt="" coords="531,153,674,179"/>
+<area shape="poly" id="edge16_Node000006_Node000008" title=" " alt="" coords="485,163,531,163,531,169,485,169"/>
+<area shape="rect" id="Node000009" href="$classlogic_1_1SkatesPowerUp.html" title="A power&#45;up that increases a character&#39;s movement speed." alt="" coords="521,203,684,228"/>
+<area shape="poly" id="edge17_Node000006_Node000009" title=" " alt="" coords="475,180,553,200,552,205,474,185"/>
+</map>

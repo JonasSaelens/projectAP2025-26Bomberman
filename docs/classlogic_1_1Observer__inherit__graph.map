@@ -1,0 +1,17 @@
+<map id="logic::Observer" name="logic::Observer">
+<area shape="rect" id="Node000001" title="Interface for objects that wish to receive notifications from a Subject." alt="" coords="385,5,497,91"/>
+<area shape="rect" id="Node000002" href="$classlogic_1_1Score.html" title="Manages player scoring, bonuses, penalties, and high score persistence." alt="" coords="239,139,431,544"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="424,105,411,139,406,137,419,103"/>
+<area shape="rect" id="Node000003" href="$classrepresentation_1_1EntityView.html" title="Abstract base class for rendering game entities and handling visual observer events." alt="" coords="455,189,641,494"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="464,103,495,187,490,189,459,104"/>
+<area shape="rect" id="Node000004" href="$classrepresentation_1_1BombView.html" title="Handles the visual presentation and sound effects for a Bomb entity." alt="" coords="5,662,192,867"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="483,507,465,528,444,546,412,565,382,573,352,574,324,572,296,569,267,570,237,577,206,594,172,625,145,664,140,660,168,622,202,590,235,572,266,565,296,564,324,566,353,569,381,568,410,560,441,542,461,524,479,503"/>
+<area shape="rect" id="Node000005" href="$classrepresentation_1_1CharacterView.html" title="Handles the visual representation, skin customization, and animations for a Character entity." alt="" coords="217,592,429,937"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="465,508,445,545,419,593,415,590,440,543,460,505"/>
+<area shape="rect" id="Node000006" href="$classrepresentation_1_1FlameView.html" title="Handles the visual presentation and frame&#45;by&#45;frame animation for explosion flame segments." alt="" coords="453,692,643,837"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="551,508,551,692,545,692,545,508"/>
+<area shape="rect" id="Node000007" href="$classrepresentation_1_1PowerUpView.html" title="Handles the visual presentation and collection sound effects for a PowerUp entity." alt="" coords="667,682,874,847"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="637,505,730,681,725,683,632,508"/>
+<area shape="rect" id="Node000008" href="$classrepresentation_1_1WallView.html" title="Handles the visual presentation and destruction animation for a Wall entity." alt="" coords="898,642,1075,887"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="654,402,773,485,833,535,889,590,926,640,922,644,885,594,830,539,770,489,651,406"/>
+</map>

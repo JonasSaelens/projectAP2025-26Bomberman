@@ -1,0 +1,5 @@
+<map id="representation::MenuState" name="representation::MenuState">
+<area shape="rect" id="Node000001" title="Represents the main menu screen state of the application." alt="" coords="5,199,192,404"/>
+<area shape="rect" id="Node000002" href="$classrepresentation_1_1State.html" title="Constructs a new State instance. @reference game Reference to the core Game application engine." alt="" coords="23,5,174,151"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,164,101,199,96,199,96,164"/>
+</map>

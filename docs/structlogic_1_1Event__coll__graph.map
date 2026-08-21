@@ -1,0 +1,5 @@
+<map id="logic::Event" name="logic::Event">
+<area shape="rect" id="Node000001" title="Represents a game event dispatched to observers via the Subject/Observer pattern." alt="" coords="5,233,128,379"/>
+<area shape="rect" id="Node000002" href="$structlogic_1_1Vector2.html" title="Represents a 2D vector with double&#45;precision coordinates." alt="" coords="14,5,119,171"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="69,171,69,217,64,217,64,171"/>
+</map>
