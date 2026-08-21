@@ -7,22 +7,15 @@ jobs:
     steps:
     - checkout
     - run: sudo apt update
+    # Install build tools, doxygen, and automatically pull in all required SFML library build dependencies
     - run: >
         DEBIAN_FRONTEND=noninteractive TZ=Europe/Brussels sudo apt install -y 
         build-essential 
         cmake 
         git 
         doxygen 
-        libsfml-dev 
-        libudev-dev 
-        libopenal-dev 
-        libvorbis-dev 
-        libogg-dev 
-        libflac-dev
-        libxrandr-dev
-        libxcursor-dev
-        libxi-dev
-        libxinerama-dev
+        libsfml-dev
+    - run: sudo apt build-dep -y libsfml
     - run: mkdir -p build
     - run: cd build && cmake ..
     - run: cd build && make
