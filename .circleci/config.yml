@@ -27,6 +27,7 @@ jobs:
           libxi-dev 
           libxinerama-dev 
           libfreetype-dev
+          graphviz
       - run: mkdir -p build
       - run: cd build && cmake ..
       - run: cd build && make
