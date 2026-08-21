@@ -51,13 +51,12 @@ jobs:
       - run:
           name: Commit and Push Doxygen Docs to main
           command: |
-            if [ -d "docs/html" ]; then
+            if [ -d "docs" ]; then
               git remote set-url origin git@github.com:$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME.git
               git checkout main || git checkout -b main
               
-              # Ensure docs folder contains the built html contents cleanly
-              # (Assuming doxygen outputs to docs/html)
-              git add -f docs/html/*
+              # Add the entire docs directory so the html folder and files stay structured
+              git add -f docs/
               
               if git diff --staged --quiet; then
                 echo "No documentation changes to deploy."
@@ -66,5 +65,5 @@ jobs:
                 git push origin main
               fi
             else
-              echo "HTML documentation directory not found. Skipping deployment."
+              echo "Docs directory not found. Skipping deployment."
             fi
