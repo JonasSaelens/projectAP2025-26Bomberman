@@ -47,14 +47,24 @@ jobs:
             git config --global user.name "CircleCI Build Bot"
             git config --global user.email "build-bot@circleci.local"
       - run:
-          name: Deploy Documentation to GitHub Pages
+          name: Commit and Push Doxygen Docs to main
           command: |
-            # Doxyfile sets OUTPUT_DIRECTORY = docs, so HTML output is in docs/html
-            DOC_DIR="docs/html"
-
-            if [ -d "$DOC_DIR" ]; then
-              echo "Deploying documentation from $DOC_DIR to gh-pages..."
-              git subtree push --prefix "$DOC_DIR" origin gh-pages
+            # Doxygen outputs to docs/html based on your Doxyfile. 
+            # We want the contents of docs/html to be right inside the repo's 'docs' folder.
+            if [ -d "docs/html" ]; then
+              git checkout main || git checkout -b main
+              
+              # Stage only the generated documentation
+              git add -f docs/html/*
+              
+              # Check if there are changes to commit
+              if git diff --staged --quiet; then
+                echo "No documentation changes to deploy."
+              else
+                git commit -m "chore: Update Doxygen documentation [skip ci]"
+                # Push back to the main branch
+                git push origin main
+              fi
             else
-              echo "HTML documentation directory ($DOC_DIR) not found. Skipping deployment."
+              echo "HTML documentation directory not found. Skipping deployment."
             fi
