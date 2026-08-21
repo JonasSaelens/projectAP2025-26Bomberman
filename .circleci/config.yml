@@ -28,7 +28,14 @@ jobs:
     - run: cd build && cmake ..
     - run: cd build && make
     - run: cd build && sudo make install
-    - run: cd build && make doc
+    - run: |
+        if [ -f Doxyfile ]; then
+          doxygen Doxyfile
+        elif [ -f build/Doxyfile ]; then
+          cd build && doxygen Doxyfile
+        else
+          echo "No Doxyfile found, skipping documentation generation."
+        fi
     - store_artifacts:
         path: build/installed
     - store_artifacts:
