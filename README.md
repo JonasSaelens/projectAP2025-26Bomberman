@@ -3,6 +3,7 @@
 **Author:** Jonas Saelens
 **Student number:** *s0240883*
 **Repository:** https://github.com/JonasSaelens/projectAP2025-26Bomberman
+**documentation (doxygen):** https://jonassaelens.github.io/projectAP2025-26Bomberman
 
 
 ## Building
