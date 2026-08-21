@@ -1,0 +1,5 @@
+<map id="logic::Score" name="logic::Score">
+<area shape="rect" id="Node000001" title="Manages player scoring, bonuses, penalties, and high score persistence." alt="" coords="5,139,197,544"/>
+<area shape="rect" id="Node000002" href="$classlogic_1_1Observer.html" title="Interface for objects that wish to receive notifications from a Subject." alt="" coords="45,5,157,91"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,104,104,138,99,138,99,104"/>
+</map>

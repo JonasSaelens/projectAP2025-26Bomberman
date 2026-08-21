@@ -1,0 +1,9 @@
+<map id="logic::BombPowerUp" name="logic::BombPowerUp">
+<area shape="rect" id="Node000001" title="A power&#45;up that increases a character&#39;s maximum bomb capacity." alt="" coords="5,765,155,851"/>
+<area shape="rect" id="Node000002" href="$classlogic_1_1PowerUp.html" title="Abstract base class representing a collectible power&#45;up item in the world." alt="" coords="25,572,135,717"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="83,731,83,765,77,765,77,731"/>
+<area shape="rect" id="Node000003" href="$classlogic_1_1EntityModel.html" title="Abstract base class for all game entities in the world." alt="" coords="9,199,151,524"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="83,538,83,572,77,572,77,538"/>
+<area shape="rect" id="Node000004" href="$classlogic_1_1Subject.html" title="Base class implementing the Subject side of the Observer pattern." alt="" coords="19,5,141,151"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="83,164,83,198,77,198,77,164"/>
+</map>

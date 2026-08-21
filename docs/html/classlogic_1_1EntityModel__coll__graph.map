@@ -1,0 +1,7 @@
+<map id="logic::EntityModel" name="logic::EntityModel">
+<area shape="rect" id="Node000001" title="Abstract base class for all game entities in the world." alt="" coords="63,263,205,528"/>
+<area shape="rect" id="Node000002" href="$classlogic_1_1Subject.html" title="Base class implementing the Subject side of the Observer pattern." alt="" coords="5,15,127,161"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,173,107,261,102,263,82,174"/>
+<area shape="rect" id="Node000003" href="$structlogic_1_1Vector2.html" title="Represents a 2D vector with double&#45;precision coordinates." alt="" coords="151,5,256,171"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="187,172,170,247,165,246,182,170"/>
+</map>

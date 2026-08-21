@@ -1,0 +1,7 @@
+<map id="representation::BombView" name="representation::BombView">
+<area shape="rect" id="Node000001" title="Handles the visual presentation and sound effects for a Bomb entity." alt="" coords="5,492,192,697"/>
+<area shape="rect" id="Node000002" href="$classrepresentation_1_1EntityView.html" title="Abstract base class for rendering game entities and handling visual observer events." alt="" coords="5,139,192,444"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,458,101,492,96,492,96,458"/>
+<area shape="rect" id="Node000003" href="$classlogic_1_1Observer.html" title="Interface for objects that wish to receive notifications from a Subject." alt="" coords="43,5,155,91"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="101,104,101,139,96,139,96,104"/>
+</map>

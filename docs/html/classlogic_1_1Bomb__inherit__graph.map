@@ -1,0 +1,7 @@
+<map id="logic::Bomb" name="logic::Bomb">
+<area shape="rect" id="Node000001" title="Represents a bomb entity placed in the game world." alt="" coords="5,572,239,977"/>
+<area shape="rect" id="Node000002" href="$classlogic_1_1EntityModel.html" title="Abstract base class for all game entities in the world." alt="" coords="51,199,193,524"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,538,125,572,119,572,119,538"/>
+<area shape="rect" id="Node000003" href="$classlogic_1_1Subject.html" title="Base class implementing the Subject side of the Observer pattern." alt="" coords="61,5,183,151"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="125,164,125,198,119,198,119,164"/>
+</map>

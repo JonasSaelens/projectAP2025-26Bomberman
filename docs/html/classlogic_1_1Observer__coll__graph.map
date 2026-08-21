@@ -1,0 +1,3 @@
+<map id="logic::Observer" name="logic::Observer">
+<area shape="rect" id="Node000001" title="Interface for objects that wish to receive notifications from a Subject." alt="" coords="5,5,117,91"/>
+</map>

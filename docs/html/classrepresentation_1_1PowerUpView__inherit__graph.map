@@ -1,0 +1,7 @@
+<map id="representation::PowerUpView" name="representation::PowerUpView">
+<area shape="rect" id="Node000001" title="Handles the visual presentation and collection sound effects for a PowerUp entity." alt="" coords="5,492,212,657"/>
+<area shape="rect" id="Node000002" href="$classrepresentation_1_1EntityView.html" title="Abstract base class for rendering game entities and handling visual observer events." alt="" coords="15,139,202,444"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,458,111,492,106,492,106,458"/>
+<area shape="rect" id="Node000003" href="$classlogic_1_1Observer.html" title="Interface for objects that wish to receive notifications from a Subject." alt="" coords="53,5,165,91"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="111,104,111,139,106,139,106,104"/>
+</map>

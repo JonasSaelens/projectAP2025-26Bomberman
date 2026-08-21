@@ -1,0 +1,17 @@
+<map id="logic/include/logic/Subject.hpp" name="logic/include/logic/Subject.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="131,5,269,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,91,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="165,48,84,89,82,84,162,43"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="115,93,192,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="191,47,170,83,165,80,186,44"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="217,93,279,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="214,44,236,80,231,83,209,47"/>
+<area shape="rect" id="Node000005" href="$Observer_8hpp.html" title=" " alt="" coords="303,93,446,119"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="243,43,338,85,335,90,241,48"/>
+<area shape="rect" id="Node000006" href="$Event_8hpp.html" title=" " alt="" coords="313,167,436,192"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="377,119,377,153,372,153,372,119"/>
+<area shape="rect" id="Node000007" href="$Direction_8hpp.html" title=" " alt="" coords="221,240,365,265"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="363,194,319,233,315,229,360,190"/>
+<area shape="rect" id="Node000008" href="$Vector2_8hpp.html" title=" " alt="" coords="390,240,525,265"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="390,190,435,229,432,233,386,194"/>
+</map>

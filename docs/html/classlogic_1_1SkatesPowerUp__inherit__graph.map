@@ -1,0 +1,9 @@
+<map id="logic::SkatesPowerUp" name="logic::SkatesPowerUp">
+<area shape="rect" id="Node000001" title="A power&#45;up that increases a character&#39;s movement speed." alt="" coords="5,765,160,851"/>
+<area shape="rect" id="Node000002" href="$classlogic_1_1PowerUp.html" title="Abstract base class representing a collectible power&#45;up item in the world." alt="" coords="27,572,138,717"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,731,85,765,80,765,80,731"/>
+<area shape="rect" id="Node000003" href="$classlogic_1_1EntityModel.html" title="Abstract base class for all game entities in the world." alt="" coords="12,199,153,524"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="85,538,85,572,80,572,80,538"/>
+<area shape="rect" id="Node000004" href="$classlogic_1_1Subject.html" title="Base class implementing the Subject side of the Observer pattern." alt="" coords="22,5,143,151"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="85,164,85,198,80,198,80,164"/>
+</map>

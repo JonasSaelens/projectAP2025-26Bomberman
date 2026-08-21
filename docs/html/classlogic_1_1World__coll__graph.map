@@ -1,0 +1,3 @@
+<map id="logic::World" name="logic::World">
+<area shape="rect" id="Node000001" title="Manages the game state, entities, arena initialization, and update loops." alt="" coords="5,5,209,631"/>
+</map>
