@@ -19,6 +19,10 @@ jobs:
         libvorbis-dev 
         libogg-dev 
         libflac-dev
+        libxrandr-dev
+        libxcursor-dev
+        libxi-dev
+        libxinerama-dev
     - run: mkdir -p build
     - run: cd build && cmake ..
     - run: cd build && make
