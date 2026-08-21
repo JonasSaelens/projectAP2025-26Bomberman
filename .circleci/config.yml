@@ -5,8 +5,10 @@ jobs:
     machine:
       image: ubuntu-2404:current
     steps:
-      - checkout:
-          fingerprint: "SHA256:j3l9IVIVZHft7lLffJ++XjeM/PLFlze/36aHrdILNJM"
+      - add_ssh_keys:
+          fingerprints:
+            - "SHA256:j3l9IVIVZHft7lLffJ++XjeM/PLFlze/36aHrdILNJM"
+      - checkout
       - run: sudo apt update
       - run: >
           DEBIAN_FRONTEND=noninteractive TZ=Europe/Brussels sudo apt install -y 
