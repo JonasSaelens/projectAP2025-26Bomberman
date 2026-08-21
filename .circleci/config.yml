@@ -2,13 +2,12 @@ version: 2.1
 
 jobs:
   build:
-    resource_class: small
-    docker:
-    - image: ubuntu:24.04
+    machine:
+      image: ubuntu-2404:current
     steps:
     - checkout
-    - run: apt update
-    - run: DEBIAN_FRONTEND=noninteractive TZ=Europe/Brussels apt install -y gcc g++ cmake git doxygen libsfml-dev
+    - run: sudo apt update
+    - run: DEBIAN_FRONTEND=noninteractive TZ=Europe/Brussels sudo apt install -y build-essential cmake git doxygen libsfml-dev
     - run: mkdir -p build
     - run: cd build && cmake ..
     - run: cd build && make
