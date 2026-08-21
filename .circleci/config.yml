@@ -4,7 +4,7 @@ jobs:
   build:
     resource_class: small
     docker:
-    - image: ubuntu:20.04
+    - image: ubuntu:24.04
     steps:
     - checkout
     - run: apt update
